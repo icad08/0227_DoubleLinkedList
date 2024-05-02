@@ -12,7 +12,11 @@ struct Node{
 Node * START = NULL;
 
 void addNode(){
-    Node * newNode = new node (); 
+    Node * newNode = new Node ();
+    cout << "\nEnter the roll number of student: ";
+    cin >> newNode -> noMhs;
+    cout << "\nEnter the name of student: ";
+    cin >> newNode -> name; 
 }
 
 
