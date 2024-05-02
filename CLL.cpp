@@ -5,9 +5,13 @@ using namespace  std;
 struct Node{
     int noMhs;
     string name;
-    node * next;
-    node * prev;
+    Node* next;
+    Node* prev;
 };
+
+Node * START = NULL;
+
+
 
 
 int main(){
