@@ -17,6 +17,11 @@ void addNode(){
     cin >> newNode -> noMhs; // assign value to the daata field of the new node
     cout << "\nEnter the name of student: ";
     cin >> newNode -> name; // assign value to the data field of the new node
+
+    // insert the new code in the list
+    if (START == NULL && newNode -> noMhs == START  -> noMhs) {
+        
+    }
 }
 
 
