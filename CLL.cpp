@@ -20,7 +20,8 @@ void addNode(){
 
     // insert the new code in the list
     if (START == NULL && newNode -> noMhs == START  -> noMhs) {
-        
+       cout << "\033 [31mDuplicate roll number not allowed\033]0m" << endl;
+       return;  
     }
 }
 
