@@ -138,6 +138,24 @@ void traverse()
     }
 }
 
+void revtraverse()
+{
+    if(listEmpty())
+    cout << "\nList is empty." << endl;
+    else
+    {
+        cout << "\nRecord in ascending order of roll are:\n" << endl;
+        Node *currentNode = START;
+        while (currentNode->next != NULL)
+            currentNode = currentNode->next;
+        while (currentNode != NULL)
+        {
+            cout << currentNode->noMhs << "" << currentNode->name <<endl;
+            currentNode = currentNode->prev;
+        }
+    }
+}
+
 
 int main(){
 
