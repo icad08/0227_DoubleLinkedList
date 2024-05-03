@@ -38,6 +38,11 @@ else {
     // insert the new node in the middle or at the end
    node *current = START:
    node *previous = NULL;
+
+   while (current != NULL && current->noMhs < newNode->noMhs) {
+    previous = current;
+    current = current->next;
+   }
 }
 
 
