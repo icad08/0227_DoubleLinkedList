@@ -36,7 +36,7 @@ void addNode(){
 
 else {
     // insert the new node in the middle or at the end
-   Node *current = START:
+   Node *current = START;
    Node *previous = NULL;
 
    while (current != NULL && current->noMhs < newNode->noMhs) {
