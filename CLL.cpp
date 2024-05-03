@@ -28,16 +28,16 @@ void addNode(){
     // if the list is empty, make the new node the START
     newNode -> next  = START; // step 3: make the new node point to the first node
     if (START != NULL ) {
-        START= ->prev  = newNode ;// step 4: make the first node point to the new node 
+        START=->prev  = newNode ;// step 4: make the first node point to the new node 
     }
     newNode->prev = newNode; // step 5: make the new node point to NULL
     START = newNode; // step 6: make the new node the first node
     }
-}
+
 else {
     // insert the new node in the middle or at the end
-   node *current = START:
-   node *previous = NULL;
+   Node *current = START:
+   Node *previous = NULL;
 
    while (current != NULL && current->noMhs < newNode->noMhs) {
     previous = current;
@@ -56,7 +56,7 @@ else {
     START = newNode;
    }
 }
-
+}
 bool search (int rollNo, Node **previous, Node **current)
 {
     *previous = NULL;
