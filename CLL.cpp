@@ -119,7 +119,7 @@ void deleteNode()
 
 bool listEmpty()
 {
-    return(START == NULL)
+    return(START == NULL);
 }
 
 void traverse()
@@ -158,7 +158,7 @@ void revtraverse()
 
 void searchData()
 {
-    if(listempty() == true)
+    if(listEmpty() == true)
     {
         cout << "\nList is empty." << endl;
     }
@@ -173,7 +173,7 @@ void searchData()
     {
         cout << "\nRecord found" << endl;
         cout << "\nRoll number: " << curr->noMhs << endl;
-        cout << "\nName: " << curr->nama << endl;
+        cout << "\nName: " << curr->name << endl;
     }
 }
 
