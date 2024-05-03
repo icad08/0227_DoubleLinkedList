@@ -91,6 +91,12 @@ void deleteNode()
         current = current->next;
     }
 
+    if(current == NULL)
+    {
+        cout << "\033[31mDuplicate roll numbers not allowed\033[0m" << endl;
+        return;
+    }
+
 
 int main(){
 
